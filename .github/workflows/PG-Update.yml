@@ -27,7 +27,7 @@ jobs:
 
       - name: Move generated files to new folder
         # 将生成的文件移动到新文件夹
-        run: mv generated_file* PG/
+        run: mv * PG/
 
       - name: Commit and push changes
         # 将生成的文件添加到暂存区
