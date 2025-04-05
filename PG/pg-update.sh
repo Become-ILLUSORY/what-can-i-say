@@ -12,7 +12,7 @@ new_text_0="http://www.fish2018.ip-ddns.com/p/pg.jar"
 old_text_1="./lib/"
 new_text_1="http://www.fish2018.ip-ddns.com/p/lib/"
 old_text_2="http://www.fish2018.ip-ddns.com/p/lib/tokenm.json"
-new_text_2="https://cdn.jsdelivr.net/gh/Become-ILLUSORY/what-can-i-say@main/PG/token.json"
+new_text_2="https://github.boki.moe/gh/Become-ILLUSORY/what-can-i-say@main/PG/token.json"
 
 # 第三波替换的内容
 old_text_3="./"
