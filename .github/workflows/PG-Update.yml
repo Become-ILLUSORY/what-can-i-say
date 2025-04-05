@@ -19,7 +19,7 @@ jobs:
 
       - name: Run script
         # 运行 sh 脚本
-        run: ./pg-update.sh
+        run: cd PG&&sh pg-update.sh
 
 
       - name: Commit and push changes
