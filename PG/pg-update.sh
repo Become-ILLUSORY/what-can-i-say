@@ -133,7 +133,7 @@ echo "EMBY操作完成。"
 
 #json中alist修改
 # 使用 jq 修改 ext 字段并将结果保存到临时文件
-jq '.sites[] |= if .key == "AList" then .ext = "https://cdn.jsdelivr.net/gh/Become-ILLUSORY/what-can-i-say@main/PG/alistjar.json" else . end' "$downloaded_file_1" > temp.json
+jq '.sites[] |= if .key == "AList" then .ext = "https://github.boki.moe/gh/Become-ILLUSORY/what-can-i-say@main/PG/alistjar.json" else . end' "$downloaded_file_1" > temp.json
 
 # 检查 jq 命令是否执行成功
 if [ $? -ne 0 ]; then
