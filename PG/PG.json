@@ -13,8 +13,8 @@
     },
     {
       "key": "https://github.com/fish2018/PG",
-      "name": "202504051549",
-      "zip": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/PG/main/pg.20250405-1549.zip",
+      "name": "202504052043",
+      "zip": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/PG/main/pg.20250405-2043.zip",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -88,7 +88,7 @@
       "searchable": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "http://192.168.1.1/pg/alistjar.json"
+      "ext": "https://cdn.jsdelivr.net/gh/Become-ILLUSORY/what-can-i-say@main/PG/alistjar.json"
     },
     {
       "key": "PushShare",
