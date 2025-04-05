@@ -15,7 +15,7 @@ jobs:
 
       - name: Make script executable
         # 使 sh 脚本可执行
-        run: chmod +x pg-update.sh
+        run: chmod +x ./PG/pg-update.sh
 
       - name: Run script
         # 运行 sh 脚本
