@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# 定义目标文件夹
+TARGET_FOLDER="PG"
+
+# 创建目标文件夹
+mkdir -p $TARGET_FOLDER
+
 # 定义下载链接和文件名
 download_url_1="http://www.fish2018.ip-ddns.com/p/jsm.json"
 downloaded_file_1="PG.json"
@@ -147,3 +153,4 @@ mv temp.json PG.json
 
 echo "alist-JSON 文件已更新。"    
 
+mv  *  PG/
