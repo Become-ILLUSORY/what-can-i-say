@@ -1,22 +1,22 @@
 #!/bin/sh
 
 # 定义下载链接和文件名
-download_url_1="http://www.fish2018.ip-ddns.com/p/jsm.json"
+download_url_1="https://cnb.cool/fish2018/pg/-/git/raw/master/jsm.json"
 downloaded_file_1="PG.json"
 download_url_2="https://pg.banye.tech:7777/pg/lib/tokenm?token=banye"
 downloaded_file_2="token.json"
 
 # 定义要替换的文本和替换后的文本
 old_text_0="./pg.jar"
-new_text_0="http://www.fish2018.ip-ddns.com/p/pg.jar"
+new_text_0="https://cnb.cool/fish2018/pg/-/git/raw/master/pg.jar"
 old_text_1="./lib/"
-new_text_1="http://www.fish2018.ip-ddns.com/p/lib/"
+new_text_1="https://cnb.cool/fish2018/pg/-/git/raw/master/lib/"
 old_text_2="http://www.fish2018.ip-ddns.com/p/lib/tokenm.json"
 new_text_2="https://github.boki.moe/gh/Become-ILLUSORY/what-can-i-say@main/PG/token.json"
 
 # 第三波替换的内容
 old_text_3="./"
-new_text_3="http://www.fish2018.ip-ddns.com/p/lib/"
+new_text_3="https://cnb.cool/fish2018/pg/-/git/raw/master/lib/"
 
 # 第四波替换的内容
 old_text_4="https://tg.banye.tech:7777/"
