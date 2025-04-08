@@ -12,7 +12,7 @@ new_text_0="https://cnb.cool/fish2018/pg/-/git/raw/master/pg.jar"
 old_text_1="./lib/"
 new_text_1="https://cnb.cool/fish2018/pg/-/git/raw/master/lib/"
 old_text_2="http://www.fish2018.ip-ddns.com/p/lib/tokenm.json"
-new_text_2="https://github.boki.moe/gh/Become-ILLUSORY/what-can-i-say@main/PG/token.json"
+new_text_2="https://gh-proxy.com/raw.githubusercontent.com/Become-ILLUSORY/what-can-i-say/refs/heads/main/PG/token.json"
 
 # 第三波替换的内容
 old_text_3="./"
@@ -133,7 +133,7 @@ echo "EMBY操作完成。"
 
 #json中alist修改
 # 使用 jq 修改 ext 字段并将结果保存到临时文件
-jq '.sites[] |= if .key == "AList" then .ext = "https://github.boki.moe/gh/Become-ILLUSORY/what-can-i-say@main/PG/alistjar.json" else . end' "$downloaded_file_1" > temp.json
+jq '.sites[] |= if .key == "AList" then .ext = "https://gh-proxy.com/raw.githubusercontent.com/Become-ILLUSORY/what-can-i-say/refs/heads/main/PG/alistjar.json" else . end' "$downloaded_file_1" > temp.json
 
 # 检查 jq 命令是否执行成功
 if [ $? -ne 0 ]; then
