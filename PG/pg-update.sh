@@ -9,9 +9,11 @@ downloaded_file_2="token.json"
 # 定义要替换的文本和替换后的文本
 old_text_0="./pg.jar"
 new_text_0="https://cnb.cool/fish2018/pg/-/git/raw/master/pg.jar"
+
 old_text_1="./lib/"
 new_text_1="https://cnb.cool/fish2018/pg/-/git/raw/master/lib/"
-old_text_2="http://www.fish2018.ip-ddns.com/p/lib/tokenm.json"
+
+old_text_2="https://cnb.cool/fish2018/pg/-/git/raw/master/lib/tokenm.json"
 new_text_2="https://gh-proxy.com/raw.githubusercontent.com/Become-ILLUSORY/what-can-i-say/refs/heads/main/PG/token.json"
 
 # 第三波替换的内容
