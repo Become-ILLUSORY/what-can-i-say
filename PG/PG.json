@@ -13,8 +13,8 @@
     },
     {
       "key": "https://github.com/fish2018/PG",
-      "name": "202504061742",
-      "zip": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/PG/main/pg.20250406-1742.zip",
+      "name": "202504081353",
+      "zip": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/PG/main/pg.20250408-1353.zip",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -88,7 +88,7 @@
       "searchable": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "https://github.boki.moe/gh/Become-ILLUSORY/what-can-i-say@main/PG/alistjar.json"
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/Become-ILLUSORY/what-can-i-say/refs/heads/main/PG/alistjar.json"
     },
     {
       "key": "PushShare",
@@ -455,6 +455,17 @@
       "filterable": 1,
       "timeout": 60,
       "ext": "https://cnb.cool/fish2018/pg/-/git/raw/master/lib/tokenm.json$$$http://cj.jiexi.news/$$$noproxy$$$1$$$https://cnb.cool/fish2018/pg/-/git/raw/master/lib/wogg.json$$$BAIJIA"
+    },
+    {
+      "key": "QINGYING",
+      "name": "清影|网盘",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
+      "ext": "https://cnb.cool/fish2018/pg/-/git/raw/master/lib/tokenm.json$$$https://revohd.com/$$$noproxy$$$1$$$https://cnb.cool/fish2018/pg/-/git/raw/master/lib/wogg.json$$$QINGYING"
     },
     {
       "key": "Xiaomi",
